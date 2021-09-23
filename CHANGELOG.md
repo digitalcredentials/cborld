@@ -1,5 +1,11 @@
 # @digitalcredentials/cborld ChangeLog
 
+## 4.3.1 - 2021-09-23
+
+### Changed
+- Remove 'esm' runtime transpiling, use rollup for packaging (for TypeScript
+  and ReactNative compatibility).
+
 ## 4.3.0 - 2021-09-17
 
 ### Added
