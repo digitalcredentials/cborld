@@ -14,8 +14,11 @@
 
 ## Background
 
-This library provides a CBOR-LD Processor for Web browsers and Node.js
-applications.
+(Forked from [`digitalbazaar/cborld` v4](https://github.com/digitalbazaar/cborld)
+to provide TypeScript and ReactNative compatibility.)
+
+This library provides a CBOR-LD Processor for Web browsers, React Native, 
+and Node.js applications.
 
 ## Install
 
