@@ -1,5 +1,8 @@
 # JavaScript CBOR-LD Processor _(@digitalcredentials/cborld)_
 
+[![Node.js CI](https://github.com/digitalcredentials/cborld/workflows/Node.js%20CI/badge.svg)](https://github.com/digitalcredentials/cborld/actions?query=workflow%3A%22Node.js+CI%22)
+[![NPM Version](https://img.shields.io/npm/v/@digitalcredentials/cborld.svg)](https://npm.im/@digitalcredentials/cborld)
+
 > A JavaScript CBOR-LD Process for Web browsers and Node.js apps.
 
 ## Table of Contents
