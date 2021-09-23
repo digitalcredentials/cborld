@@ -30,13 +30,7 @@ module.exports = function(config) {
     webpack: {
       //mode: 'production',
       mode: 'development',
-      devtool: 'inline-source-map',
-      node: {
-        //Buffer: false,
-        //process: false,
-        crypto: false,
-        setImmediate: false
-      }
+      devtool: 'inline-source-map'
     },
 
     // test results reporter to use
@@ -64,17 +58,6 @@ module.exports = function(config) {
     // browser launchers: https://npmjs.org/browse/keyword/karma-launcher
     //browsers: ['ChromeHeadless', 'Chrome', 'Firefox', 'Safari'],
     browsers: ['ChromeHeadless'],
-
-    customLaunchers: {
-      IE9: {
-        base: 'IE',
-        'x-ua-compatible': 'IE=EmulateIE9'
-      },
-      IE8: {
-        base: 'IE',
-        'x-ua-compatible': 'IE=EmulateIE8'
-      }
-    },
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
