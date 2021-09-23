@@ -1,5 +1,5 @@
 {
-  "name": "@digitalbazaar/cborld",
+  "name": "@digitalcredentials/cborld",
   "version": "4.3.1-0",
   "description": "A CBOR-LD encoder/decoder for Javascript.",
   "license": "BSD-3-Clause",
@@ -25,13 +25,13 @@
     "email": "support@digitalbazaar.com",
     "url": "https://digitalbazaar.com/"
   },
-  "homepage": "https://github.com/digitalbazaar/cborld",
+  "homepage": "https://github.com/digitalcredentials/cborld",
   "repository": {
     "type": "git",
-    "url": "https://github.com/digitalbazaar/cborld"
+    "url": "https://github.com/digitalcredentials/cborld"
   },
   "bugs": {
-    "url": "https://github.com/digitalbazaar/cborld/issues"
+    "url": "https://github.com/digitalcredentials/cborld/issues"
   },
   "keywords": [
     "json-ld",
@@ -40,7 +40,7 @@
     "compression"
   ],
   "browser": {
-    "crypto": false
+    "crypto": false,
     "./lib/util.js": "./lib/util-browser.js"
   },
   "react-native": {
@@ -56,6 +56,7 @@
     "build": "npm run clear && npm run rollup && ./build-dist.sh",
     "clear": "rimraf dist/*",
     "prepare": "npm run build",
+    "prepack": "npm run build",
     "test": "npm run test-node",
     "test-node": "cross-env NODE_ENV=test mocha -r esm --preserve-symlinks -t 30000 -A -R ${REPORTER:-spec} tests/*.spec.js",
     "test-karma": "karma start karma.conf.js",
@@ -67,7 +68,7 @@
     "rebuild": "npm run clear && npm run build"
   },
   "dependencies": {
-    "base58-universal": "^1.0.0",
+    "@digitalcredentials/base58-universal": "^1.0.1",
     "cborg": "^1.2.0",
     "js-base64": "^3.6.0",
     "uuid": "^8.3.1"
