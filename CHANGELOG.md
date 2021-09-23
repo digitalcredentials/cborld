@@ -1,4 +1,4 @@
-# @digitalbazaar/cborld ChangeLog
+# @digitalcredentials/cborld ChangeLog
 
 ## 4.3.0 - 2021-09-17
 

@@ -1,4 +1,4 @@
-# JavaScript CBOR-LD Processor
+# JavaScript CBOR-LD Processor _(@digitalcredentials/cborld)_
 
 > A JavaScript CBOR-LD Process for Web browsers and Node.js apps.
 
@@ -22,7 +22,7 @@ applications.
 ### NPM
 
 ```
-npm install @digitalbazaar/cborld
+npm install @digitalcredentials/cborld
 ```
 
 ### Git
@@ -30,7 +30,7 @@ npm install @digitalbazaar/cborld
 To install locally (for development):
 
 ```
-git clone https://github.com/digitalbazaar/cborld.git
+git clone https://github.com/digitalcredentials/cborld.git
 cd cborld
 npm install
 ```
@@ -45,7 +45,7 @@ CBOR-LD data.
 To encode a JSON-LD document as CBOR-LD:
 
 ```js
-import {encode, documentLoader} from '@digitalbazaar/cborld';
+import {encode, documentLoader} from '@digitalcredentials/cborld';
 
 const jsonldDocument = {
   '@context': 'https://www.w3.org/ns/activitystreams',
@@ -61,7 +61,7 @@ const cborldBytes = await encode({jsonldDocument, documentLoader});
 To decode a CBOR-LD document to JSON-LD:
 
 ```js
-import {decode, documentLoader} from '@digitalbazaar/cborld';
+import {decode, documentLoader} from '@digitalcredentials/cborld';
 
 // get the CBOR-LD bytes
 const cborldBytes = await fs.promises.readFile('out.cborld');
@@ -293,11 +293,7 @@ PRs accepted.
 If editing the README, please conform to the
 [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
 
-## Commercial Support
-
-Commercial support for this library is available upon request from
-Digital Bazaar: support@digitalbazaar.com
-
 ## License
 
-[BSD-3-Clause](LICENSE.md) © Digital Bazaar
+* MIT License - DCC - TypeScript compatibility.
+* New BSD License (3-clause) © 2020-2021 Digital Bazaar - Initial implementation.
