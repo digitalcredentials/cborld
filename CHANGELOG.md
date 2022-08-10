@@ -1,5 +1,9 @@
 # @digitalcredentials/cborld ChangeLog
 
+## 4.3.2 - 2022-08-10
+### Fixed
+- Fix typo in DCC context registration.
+
 ## 4.3.1 - 2021-09-23
 
 ### Changed
